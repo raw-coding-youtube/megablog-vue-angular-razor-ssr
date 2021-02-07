@@ -1,0 +1,9 @@
+<div *ngIf="!post">
+    Loading ...
+</div>
+<div class="post" *ngIf="post">
+    <header>{{post.title}}</header>
+    <div>{{post.body}}</div>
+</div>
+
+<a routerLink="">Back</a>

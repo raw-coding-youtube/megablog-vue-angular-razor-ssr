@@ -1,0 +1,5 @@
+
+<a class="card" [routerLink]="[blog.id]" *ngFor="let blog of blogs">
+    <header>{{blog.title}}</header>
+    <div>{{blog.body}}</div>
+</a>

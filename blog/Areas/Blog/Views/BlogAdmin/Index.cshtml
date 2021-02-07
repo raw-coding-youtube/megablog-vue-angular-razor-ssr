@@ -1,0 +1,16 @@
+@model IEnumerable<blog.Areas.Blog.Models.Post>
+
+
+<div>
+    <form method="post">
+        Title:
+        <input type="text" name="title">
+        Body:
+        <input type="text" name="body">
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+    @foreach(var p in Model){
+        <p>@p.Title</p>
+    }

@@ -1,0 +1,5 @@
+Migrations scrip
+dotnet ef migrations add <name> -s ..\vue-blog\ -o Areas/Blog/Data/Migrations
+
+Database update script
+dotnet ef database update -s ..\vue-blog\ 
